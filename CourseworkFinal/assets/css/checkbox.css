@@ -1,0 +1,18 @@
+input[type=checkbox] {
+    display:none;
+  }
+  input[type=checkbox] + label img
+   {
+       height: 41px;
+       width: 41px;
+       display:inline-block;
+       padding: 0 0 0 0px;
+   }
+   
+   input[type=checkbox]:checked + label img
+    {
+        height: 41px;
+        width: 41px;
+        display:inline-block;
+        padding: 0 0 0 0px;
+    }

@@ -1,0 +1,14 @@
+
+	.example-val {
+		font-size: 13px;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		color: #000;
+		display: block;
+		margin: 15px 0;
+	}
+	.example-val:before {
+		content: "Value: ";
+		font-size: 13px;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+	}
+	

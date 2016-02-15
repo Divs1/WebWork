@@ -1,0 +1,156 @@
+
+.columnicons {
+	-webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+}
+
+.columnrating {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+#fave {
+	min-height: 15em;
+}
+
+span.colour {
+	color: #2ebaae;
+}
+
+span.bold {
+	font-weight: bold;
+}
+
+span.importantinfo {
+	font-weight: bold;
+	color: #ff0000;
+	font-style: italic;
+	font-size: 0.9em
+}
+
+.autocomplete-suggestions { 
+	border: 1px solid #999; 
+	background: rgba(255, 255, 255, 0.9); 
+	cursor: default; 
+	overflow: auto; 
+	-webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); 
+	-moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); 
+	box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); 
+}
+
+.project-description .icon {
+	font-size:2.5em;
+	vertical-align: middle;
+	color: #e5e5e5;
+	margin-left: 3%;
+}
+
+
+.project-description .button {
+	background-color:#e5e5e5;
+}
+
+
+
+
+
+
+ .filer {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+		-webkit-transition: background-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+		-ms-transition: background-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+		transition: background-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+		background-color: transparent;
+		border: 0;
+		box-shadow: inset 0 0 0 1px rgba(160, 160, 160, 0.3);
+		color: black !important;
+		cursor: pointer;
+		display: inline-block;
+		font-family: "Raleway", Helvetica, sans-serif;
+		font-size: 0.6em;
+		font-weight: 800;
+		height: 4.8125em;
+		letter-spacing: 0.25em;
+		line-height: 4.8125em;
+		padding: 0 2.5em;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		white-space: nowrap;
+	}
+
+		.filter:hover {
+			box-shadow: inset 0 0 0 1px #2ebaae;
+			color: #2ebaae !important;
+		}
+
+			.filter:hover:active {
+				background-color: rgba(46, 186, 174, 0.05);
+			}
+
+		.filter:before,
+		.filter:after {
+			color: #aaaaaa;
+			position: relative;
+		}
+
+		.filter:before {
+			left: -1em;
+			padding: 0 0 0 0.75em;
+		}
+
+		.filter:after {
+			left: 1em;
+			padding: 0 0.75em 0 0;
+		}
+
+		.filter.fit {
+			display: block;
+			margin: 0 0 1em 0;
+			width: 100%;
+		}
+
+		.filter.big {
+			font-size: 0.7em;
+			padding: 0 3em;
+		}
+
+		.filter.small {
+			font-size: 0.5em;
+		}
+
+		.filter.disabled,
+		.filter:disabled {
+			-moz-pointer-events: none;
+			-webkit-pointer-events: none;
+			-ms-pointer-events: none;
+			pointer-events: none;
+			color: rgba(160, 160, 160, 0.3) !important;
+		}
+
+			.filter.disabled:before,
+			.filter:disabled:before {
+				color: rgba(160, 160, 160, 0.3) !important;
+			}
+
+
+.columns {
+    -webkit-columns: 2; /* Chrome, Safari, Opera */
+    -moz-columns: 2; /* Firefox */
+    columns: 2;
+}
+
+.columnsextra {
+    -webkit-columns: 3; /* Chrome, Safari, Opera */
+    -moz-columns: 3; /* Firefox */
+    columns: 3;
+}
+
+.inline ul {
+	display: inline;
+}

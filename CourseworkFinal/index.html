@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Blanca Destinations</title>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="assets/css/ie9.css" />
+        <![endif]-->
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="assets/css/ie8.css" />
+        <![endif]-->
+    <!-- Default Stylesheets -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <!-- Stylesheet for Slideshow -->
+    <link rel="stylesheet" href="assets/css/responsiveslides.css" />
+    <!-- Stylesheet for checkbox-->
+    <link rel="stylesheet" href="assets/css/checkbox.css" />
+    <!-- Stylesheet for the tooltips plugin -->
+    <link rel="stylesheet" href="assets/css/tooltipster.css" />
+    <!-- Stylesheets for the datepicker plugin -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Stylesheet for JSON -->
+    <link rel="stylesheet" href="assets/css/json.css">
+    <!-- Stylesheet for Date Slider-->
+    <link href="assets/css/base.css" rel="stylesheet">
+    <!--<link href="assets/css/prism.css" rel="stylesheet">-->
+    <link href="assets/css/nouislider.min.css" rel="stylesheet">
+    
+
+</head>
+
+<body>
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <!-- Header -->
+        <header id="header">
+            <h1><a href="index.html"><span class="colour">B</span>lanca <span class="colour">D</span>estinations</a></h1>
+            <!-- Menu top of page -->
+            <nav class="links">
+                <ul>
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="destinations.html">Destinations</a>
+                    </li>
+                    <li><a href="#">Resorts</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Menu top of page - seach and further menu links -->
+            <nav class="main">
+                <ul>
+                    <li class="menu">
+                        <a class="fa-bars" href="#menu">Menu</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Sidebar Menu -->
+        <section id="menu">
+            <!-- Links to pages -->
+            <section>
+                <ul class="links">
+                    <li>
+                        <a href="index.html">
+                            <h2>Home</h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="destinations.html">
+                            <h2>Destinations</h2>
+                        </a>
+                        <a href="africa.html">
+                            <h3>Africa</h3>
+                        </a>
+                        <a href="africa_egypt.html">
+                            <p>Egypt</p>
+                        </a>
+                        <a href="#">
+                            <p>Morocco</p>
+                        </a>
+                        <a href="#">
+                            <p>Senegal</p>
+                        </a>
+                        <a href="#">
+                            <p>Tunisia</p>
+                        </a>
+                        <br>
+                        <a href="indianocean.html">
+                            <h3>Indian Ocean</h3>
+                        </a>
+                        <a href="#">
+                            <p>Maldives</p>
+                        </a>
+                        <a href="indianocean_mauritius.html">
+                            <p>Mauritius</p>
+                        </a>
+                        <br>
+                        <a href="caribbean.html">
+                            <h3>Caribbean</h3>
+                        </a>
+                        <a href="caribbean_bahamas.html">
+                            <p>The Bahamas</p>
+                        </a>
+                        <a href="#">
+                            <p>Dominican Republic</p>
+                        </a>
+                        <a href="#">
+                            <p>Guadeloupe</p>
+                        </a>
+                        <a href="#">
+                            <p>Martinique</p>
+                        </a>
+                        <a href="#">
+                            <p>Turks and Caicos</p>
+                        </a>
+                        <br>
+                        <a href="alps.html">
+                            <h3>The Alps</h3>
+                        </a>
+                        <a href="alps_france.html">
+                            <p>France</p>
+                        </a>
+                        <a href="#">
+                            <p>Italy</p>
+                        </a>
+                        <a href="#">
+                            <p>Switzerland</p>
+                        </a>
+                        <br>
+                        <a href="europe.html">
+                            <h3>Europe</h3>
+                        </a>
+                        <a href="#">
+                            <p>France</p>
+                        </a>
+                        <a href="europe_greece.html">
+                            <p>Greece</p>
+                        </a>
+                        <a href="#">
+                            <p>Italy</p>
+                        </a>
+                        <a href="#">
+                            <p>Portugal</p>
+                        </a>
+                        <a href="#">
+                            <p>Sicily</p>
+                        </a>
+                        <a href="#">
+                            <p>Turkey</p>
+                        </a>
+                        <br>
+                        <a href="north_centralamerica.html">
+                            <h3>North & Central America</h3>
+                        </a>
+                        <a href="#">
+                            <p>USA</p>
+                        </a>
+                        <a href="north_centralamerica_mexico.html">
+                            <p>Mexico</p>
+                        </a>
+                        <br>
+                        <a href="southamerica.html">
+                            <h3>South America</h3>
+                        </a>
+                        <a href="southamerica_brazil.html">
+                            <p>Brazil</p>
+                        </a>
+                        <br>
+                        <a href="asia.html">
+                            <h3>Asia</h3>
+                        </a>
+                        <a href="#">
+                            <p>China</p>
+                        </a>
+                        <a href="#">
+                            <p>Indonesia</p>
+                        </a>
+                        <a href="#">
+                            <p>Japan</p>
+                        </a>
+                        <a href="#">
+                            <p>Malaysia</p>
+                        </a>
+                        <a href="asia_thailand.html">
+                            <p>Thailand</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resorts.html">
+                            <h3>Resorts</h3>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <!-- Main -->
+        <div id="main">
+            <!-- Post -->
+            <article class="post">
+                <ul class="rslides" id="slider1">
+                    <li><img src="images/africa.jpg" alt="">
+                    </li>
+                    <li><img src="images/caribbean.jpg" alt="">
+                    </li>
+                    <li><img src="images/alps.jpg" alt="">
+                    </li>
+                    <li><img src="images/indianocean.jpg" alt="">
+                    </li>
+                    <li><img src="images/europe.jpg" alt="">
+                    </li>
+                    <li><img src="images/north_centralamerica.jpg" alt="">
+                    </li>
+                    <li><img src="images/southamerica.jpg" alt="">
+                    </li>
+                    <li><img src="images/asia.jpg" alt="">
+                    </li>
+                </ul>
+            </article>
+            <article class="post">
+                <h3>Search Form</h3>
+                <form action="" method="get" accept-charset="utf-8" id="form">
+                    <div class="row uniform">
+                        <label for="demo-name">Choose a Destination</label>
+                        <div class="12u$" id="radio">
+                            <input type="radio" name="location" value="Africa" />
+                            <label for="Africa"><img src="images/icons/africa.png" alt="">
+                            </label>
+                            <input type="radio" name="location" value="Alps" />
+                            <label for="Alps"><img src="images/icons/alps.png" alt="">
+                            </label>
+                            <input type="radio" name="location" value="Asia" />
+                            <label for="Asia"><img src="images/icons/asia.png" alt="">
+                            </label>
+                            <input type="radio" name="location" value="Caribbean" />
+                            <label for="Caribbean"><img src="images/icons/caribbean.png" alt="">
+                            </label>
+                            <br>
+                            <input type="radio" name="location" value="Europe" />
+                            <label for="Europe"><img src="images/icons/europe.png" alt="">
+                            </label>
+                            <input type="radio" name="location" value="Indianocean" />
+                            <label for="Indianocean"><img src="images/icons/indianocean.png" alt="">
+                            </label>
+                            <input type="radio" name="location" value="ncamerica" />
+                            <label for="ncamerica"><img src="images/icons/ncamerica.png" alt="">
+                            </label>
+                            <input type="radio" name="location" value="samerica" />
+                            <label for="samerica"><img src="images/icons/samerica.png" alt="">
+                            </label>
+                            <br>
+                            <input type="radio" name="location" value="Any" checked/>
+                            <label for="Any"><img src="images/icons/any.png" alt="">
+                            </label>
+                            <br>
+                        </div>
+                        <!-- <div class="12u$">
+                            <label for="demo-name">What are you looking for?</label>
+                            <input type="text" name="country" id="autocomplete-ajax" value="searchname" placeholder="E.g. Africa, Ski holidays..." />
+                            <br>
+                        </div> -->
+                        <!-- Checkboxes with tooltips -->
+                        <div class="check">
+                            <input type='checkbox' name="activity" id="spa" value="spa" />
+                            <label for="spa">
+                                <div class="tooltip" title="Spa"><img src="images/icons/spa.png" alt="">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="check">
+                            <input type='checkbox' name="activity" id="golf" value="golf" />
+                            <label for="golf">
+                                <div class="tooltip" title="Golf"><img src="images/icons/golf.png" alt="">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" name="activity" id="horseride" value="horseride" />
+                            <label for="horseride">
+                                <div class="tooltip" title="Horse-Riding"><img src="images/icons/horseride.png" alt="">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="check">
+                            <input type='checkbox' name="activity" id="tennis" value="tennis" />
+                            <label for="tennis">
+                                <div class="tooltip" title="Tennis"><img src="images/icons/tennis.png" alt="">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="check">
+                            <input type='checkbox' name="activity" id="skiing" value="skiing" />
+                            <label for="skiing">
+                                <div class="tooltip" title="Skiing"><img src="images/icons/skiing.png" alt="">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="check">
+                            <input type='checkbox' name="activity" id="scubadiving" value="scubadiving" />
+                            <label for="scubadiving">
+                                <div class="tooltip" title="Scuba-Diving"><img src="images/icons/scuba.png" alt="">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="check">
+                            <input type='checkbox' name="activity" id="sailing" value="sailing" />
+                            <label for="sailing">
+                                <div class="tooltip" title="Sailing"><img src="images/icons/sailing.png" alt="">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="check">
+                            <input type='checkbox' name="activity" id="hiking" value="hiking" />
+                            <label for="hiking">
+                                <div class="tooltip" title="Hiking"><img src="images/icons/hiking.png" alt="">
+                                </div>
+                            </label>
+                        </div>
+                        <br>
+                        <!-- Date SLider -->
+                        <div class="12u$">
+                            <label for="dates">Choose dates</label>
+                            <div id="slider-date"></div>
+                            <span class="example-val" id="event-start"></span>
+                            <span class="example-val" id="event-end"></span>
+                            <br>
+                        </div>
+                        <!-- Checkboxes with tooltips -->
+                        <label for="rating">Select a comfort level(s)</label>
+                        <div class="check">
+                            <input type='checkbox' name='rating' value='threestar' id="threestar" />
+                            <label for="threestar">
+                                <div class="tooltip" title="Standard"><img src="images/rating/threestar1.png" alt="">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="check">
+                            <input type='checkbox' name='rating' value='fourstar' id="fourstar" />
+                            <label for="fourstar">
+                                <div class="tooltip" title="Premium"><img src="images/rating/fourstar1.png" alt="">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="check">
+                            <input type='checkbox' name='rating' value='fivestar' id="fivestar" />
+                            <label for="fivestar">
+                                <div class="tooltip" title="Luxury"><img src="images/rating/fivestar1.png" alt="">
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </form>
+                <div class="12u$">
+                    <div id="selction-ajax"></div>
+                    <br>
+                    <ul class="actions">
+                        <li>
+                            <button id="search">Search</button>
+                        </li>
+                        <li>
+                            <button id="reset">Reset</button>
+                        </li>
+                        <!-- <li><button id="viewFavourites">View Favourites</button></li> -->
+                    </ul>
+                </div>
+            </article>
+            <br>
+            <br>
+            <!-- Area for results to be retrieved from JSON -->
+            <article class="post">
+                <div id="placeholder"></div>
+                <div id="placeholder2"></div>
+            </article>
+        </div>
+        <!-- Sidebar -->
+        <section id="sidebar">
+            <!-- Intro -->
+            <section id="intro">
+                <a href="index.html" class="logo"><img src="assets/logo2.png" alt="" />
+                </a>
+                <header>
+                    <p>Choose the perfect destination and make your holiday special</p>
+                </header>
+            </section>
+            <!-- About -->
+            <section class="blurb">
+                <h2>About</h2>
+                <p>Blanca Destinations is the world’s best-known name in travel, thanks to the inspiration and dedication of a single man. Blanca Destinations began his international travel company in 1841, with a successful one-day rail excursion at a shilling a head from London to Manchester on 5 July. From these humble beginnings Blanca Destinations launched a whole new kind of company – devoted to helping Britons see the world.</p>
+                <div class="aboutextend" style="display:none"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi augue sapien, eleifend maximus purus sit amet, viverra ultricies justo. Proin sagittis ac felis eget feugiat. Ut dictum consectetur ipsum nec placerat. Suspendisse ut lacus quis lacus vulputate viverra. Nunc gravida eros massa, vitae commodo tortor vulputate vitae. Curabitur iaculis tempus felis, ut ultricies orci mattis in. Morbi eget quam nec erat tempus efficitur in ac libero. Ut laoreet vulputate semper. In eu est nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin venenatis ut est id volutpat. Etiam ac urna non risus ultricies porttitor. Integer a tincidunt est. Nullam posuere ut mi nec ullamcorper. Aliquam erat volutpat. Maecenas vestibulum venenatis tortor, vel blandit tortor porta in. Ut aliquam pretium eros, in euismod tellus commodo id.</p>
+                <button id="hide">Show Less</button>                                
+                </div>
+                <br>
+                <ul class="actions">
+                    <li><button id="show" class="button">Learn More</button></li>
+                </ul>
+            </section>
+            <!-- Footer -->
+            <section id="footer">
+                <ul class="icons">
+                    <li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a>
+                    </li>
+                    <li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a>
+                    </li>
+                    <li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a>
+                    </li>
+                    <li><a href="#" class="fa-rss"><span class="label">RSS</span></a>
+                    </li>
+                    <li><a href="#" class="fa-envelope"><span class="label">Email</span></a>
+                    </li>
+                </ul>
+                <p class="copyright">Divya Bedi</a>.</p>
+            </section>
+    </div>
+    <!-- Scripts -->
+    <!-- jQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Default JavaScript -->
+    <script src="assets/js/default.js"></script>
+    <script>
+        $(function() {
+            $( "#search, #reset, button" )
+            .button()
+            .click(function( event ) {
+             event.preventDefault();
+            });
+            $( ".check" ).button();
+            $( "#radio" ).button();
+        });
+    </script>
+    <!-- Slideshow JavaScript -->
+    <script src="assets/js/responsiveslides.min.js"></script>
+    <script>
+        $(function() {
+            $("#slider1").responsiveSlides({
+                maxwidth: 800,
+                speed: 800
+            });
+        });
+    </script>
+    <!-- Tooltips JavaScript -->
+    <script type="text/javascript" src="assets/js/jquery.tooltipster.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.tooltip').tooltipster();
+        });
+    </script>
+    <!-- Autocomplete JavaScript 
+    <script type="text/javascript" src="assets/js/jquery.mockjax.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.autocomplete.js"></script>
+    <script type="text/javascript" src="assets/js/countries.js"></script>-->
+    <!--<script type="text/javascript" src="assets/js/demo.js"></script>-->
+    <!-- Datepicker JavaScript 
+    <script type="text/javascript" src="assets/js/zebra_datepicker.js"></script>
+    <script type="text/javascript" src="assets/js/core.js"></script>
+    <script>
+        $(function() {
+            $('input.datepicker').Zebra_DatePicker();
+        });
+    </script>-->
+    <!-- JSON Search JavaScript -->
+    <script>
+        $(document).ready(function() {
+            $.getJSON('resorts.json', function(data) {
+                $("#search").on("click", function() {
+                    var resortlocation = $("input[name='location']:checked").val();
+                    var activitiesSearch = $("input[name='activity']:checked").map(function() {
+                            return this.value;
+                        })
+                        .get();
+                    var needToMatch = activitiesSearch.length;
+                    var output = "<ul class='style'>";
+                    for (var i in data.resorts) {
+                        if ((resortlocation == data.resorts[i].location) || (resortlocation == "Any")) {
+                            needToMatch = activitiesSearch.length;
+                            if (needToMatch == 0) {
+                                //output layout of JSON
+                                output += "<li>" + "<h3>" + data.resorts[i].locationname + "</h3>" +
+                                    "<img src='" + data.resorts[i].picture + "' class='picture'>" + "<br>" +
+                                    "<span class='bold'>" + data.resorts[i].destination + " " + data.resorts[i].resort + "</span>" + "<br>" +
+                                    "Comfort Level: " + data.resorts[i].comfortLevel + "<br>" +
+                                    "Price: £" + data.resorts[i].price + "<br>" +
+                                    "Activities: " + data.resorts[i].listofactivities + "<br>" +
+                                    "Availability: " + data.resorts[i].date.startday + "th " + data.resorts[i].date.startmonth + " " + data.resorts[i].date.startyear + " to " +
+                                    data.resorts[i].date.endday + "th " + data.resorts[i].date.endmonth + " " + data.resorts[i].date.endyear + "<br>" +
+                                        "Description: " + data.resorts[i].short_description + "<br>" + 
+                                        "<span class='importantinfo'>" + data.resorts[i].info + "</span>" + "<br><br>" +
+                                        "<a href='" + data.resorts[i].id + ".html'><strong>Visit Page</strong></a></li>" + "<hr>";
+                            } else {
+                                for (var j in data.resorts[i].activities) {
+                                    for (var k in activitiesSearch) {
+                                        if (activitiesSearch[k] == data.resorts[i].activities[j]) {
+                                            needToMatch--;
+                                        }
+                                    }
+                                }
+                                //output layout of JSON if matched activities found
+                                if (needToMatch == 0) {
+                                    output += "<li>" + "<h3>" + data.resorts[i].locationname + "</h3>" +
+                                        "<img src='" + data.resorts[i].picture + "' class='picture'>" + "<br>" +
+                                        "<span class='bold'>" + data.resorts[i].destination + " " + data.resorts[i].resort + "</span>" + "<br>" +
+                                        "Comfort Level: " + data.resorts[i].comfortLevel + "<br>" +
+                                        "Price: £" + data.resorts[i].price + "<br>" +
+                                        "Activities: " + data.resorts[i].listofactivities + "<br>" +
+                                        "Availability: " + data.resorts[i].date.startday + "th " + data.resorts[i].date.startmonth + " " + data.resorts[i].date.startyear + " to " +
+                                        data.resorts[i].date.endday + "th " + data.resorts[i].date.endmonth + " " + data.resorts[i].date.endyear + "<br>" +
+                                        "Description: " + data.resorts[i].short_description + "<br>" +
+                                        "<span class='importantinfo'>" + data.resorts[i].info + "</span>" + "<br><br>" +
+                                        "<a href='" + data.resorts[i].id + ".html'><span class='bold'>Visit Page</span></a></li>" + "<hr>";
+                                } //else {
+                                    //output += "<h3><span class='importantinfo'> No Matches Found </span></h3>";
+                                //}
+                            }
+                        }
+                    }
+                    output += "</ul>";
+                    document.getElementById("placeholder").innerHTML = output;
+                });
+            });
+        });
+    </script>
+    <script>
+        $('#reset').click(function() {
+
+            $("#form")[0].reset();
+
+        })
+    </script>
+    <!-- Hidden About text JavaScript -->
+    <script>
+            $(document).ready(function(){
+ $("#hide").click(function(){
+    $("div.aboutextend").hide();
+  });
+  $("#show").click(function(){
+    $("div.aboutextend").show();
+  });
+});
+    </script>
+<!-- Date Slider JavaScript -->
+    <script src="assets/js/wNumb.js"></script>
+    <script src="assets/js/nouislider.js"></script>
+    <script>
+    // Create a new date from a string, return as a timestamp.
+    function timestamp(str){
+        return new Date(str).getTime();   
+    }
+    </script>           
+    <script>
+    // Create a list of day and monthnames.
+    var
+        weekdays = [
+            "Sunday", "Monday", "Tuesday",
+            "Wednesday", "Thursday", "Friday",
+            "Saturday"
+        ],
+        months = [
+            "January", "February", "March",
+            "April", "May", "June", "July",
+            "August", "September", "October",
+            "November", "December"
+        ];
+
+    // Append a suffix to dates.
+    // Example: 23 => 23rd, 1 => 1st.
+    function nth (d) {
+      if(d>3 && d<21) return 'th';
+      switch (d % 10) {
+            case 1:  return "st";
+            case 2:  return "nd";
+            case 3:  return "rd";
+            default: return "th";
+        }
+    }
+
+    // Create a string representation of the date.
+    function formatDate ( date ) {
+        return weekdays[date.getDay()] + ", " +
+            date.getDate() + nth(date.getDate()) + " " +
+            months[date.getMonth()] + " " +
+            date.getFullYear();
+    }
+    </script>           
+    <script>
+    var dateSlider = document.getElementById('slider-date');
+
+    noUiSlider.create(dateSlider, {
+    // Create two timestamps to define a range.
+        range: {
+            min: timestamp('2015'),
+            max: timestamp('2016')
+        },
+
+    // Steps of one week
+        step: 7 * 24 * 60 * 60 * 1000,
+
+    // Two more timestamps indicate the handle starting positions.
+        start: [ timestamp('2015'), timestamp('2016') ],
+
+    // No decimals
+        format: wNumb({
+            decimals: 0
+        })
+    });
+    </script>           
+    <script>
+    var dateValues = [
+        document.getElementById('event-start'),
+        document.getElementById('event-end')
+    ];
+
+    dateSlider.noUiSlider.on('update', function( values, handle ) {
+        dateValues[handle].innerHTML = formatDate(new Date(+values[handle]));
+    });
+    </script>       
+</body>
+
+</html>
